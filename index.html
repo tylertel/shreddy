@@ -1,27 +1,123 @@
-<h1>Sikorsky's Helicopters</h1>
-<picture>
-<source srcset="./s434.jpg" media="(min-width:40em)">
-<source srcset="./small.png" media="(min-width:20em)">
-<source srcset="./small.png">
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Shreddy</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
 
-<img src="./s434.jpg" alt="">
-</picture>
+    <style>
 
-<main>
-  <section>
-    <p>On May 23, 1923 the <strong>"Sikorsky Aero Engineering Corporation"</strong> was founded near Roosevelt Field by <i>Igor Sikorsky</i>, an immigrant to the United States who was born in Kiev. Igor Sikorsky originally concentrated on the development of multi-engined landplanes and then amphibious aircraft. In the late 1930s, sales declined and United Aircraft merged his division with Vought Aircraft. He took this opportunity to begin work on developing a practical helicopter. After first flying the VS-300 he developed the Sikorsky R-4, the first stable, single-rotor, fully controllable helicopter to enter large full-scale production in 1942, upon which the majority of subsequent helicopters were based (though Sikorsky did not invent the helicopter itself).</p>
-  </section>
-  <section>
-    <figure>
-      <img src="./rotorhead.jpg" alt="fully articulated">
-      <figcaption>Fig1.1 Fully Articulated Rotorsystem</figcaption>
-    </figure>
-  </section>
-  <section>
-    <details>
-      <summary>S-300C</summary>
-      <p>Originally produced by Hughes</p>
-      <p>Filled the light aircraft gap that sikorsky was missing</p>
-    </details>
-  </section>
-</main>
+        body { margin:0; }
+
+        section{
+            /* margin-top:3em;
+            margin-bottom:3em; */
+        }
+
+        header{
+            background-color:gray;
+            background: gray url("./imgs/shreddybanner.png") top center no-repeat;
+            background-size: cover;
+            height:500px;
+            /* margin-top:-4em; */
+        }
+
+         header > h1{
+            text-align: center;
+            font-family:'Damion',cursive;
+            font-weight:lighter;
+            font-size: 4em;
+            letter-spacing:.025em;
+            color:white;
+            padding-top:1em;
+            margin:0;
+        }
+
+        @media (max-width: 600px) {
+            header{
+                    background: gray url("./imgs/shreddybanner-sm3.png") top center no-repeat;
+                    height:200px;
+                }
+
+            header > h1{
+                font-size: 2em;
+            }
+        }
+
+        p{
+            margin-left:3em;
+            margin-right:3em;
+            font-family:"Helvetica Neue",Arial,sans-serif;
+            background-size: cover;
+            font-size:1em;
+            line-height:1.5;
+        }
+
+        #secondImg{
+            background: gray url("./imgs/IMG_1081.jpg") center center no-repeat;
+            height:300px;
+            background-size: cover;
+        }
+        
+        #altSection{
+            background-color:#652567;
+            background:#652567;
+        }
+
+        #altSection p{
+            margin:0;
+            padding-top:1em;
+            padding-bottom:.5em;
+            font-size: 1.5em;
+            color:white;
+            text-align: center;
+        }
+
+        strong{
+            color:#ef7f17;
+        }
+                
+
+    </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>The Shreddy Bear</h1>
+        </header>
+        
+        <main>
+            <section>
+                <p>Looking for adventure? Fredrico Ramirez Esteban Domingo de Ocho aka <strong> The Shreddy Bear </strong> is living his best life! Shoulder aliquip deserunt flank landjaeger consectetur. T-bone pariatur ipsum meatloaf kevin mollit. Duis minim short ribs, do occaecat tenderloin venison sed filet mignon in meatloaf nisi. Hamburger pastrami ball tip short ribs t-bone.</p>
+                <p>Flank exercitation ipsum, corned beef non beef ribs deserunt. Spare ribs officia shank venison porchetta. Bresaola meatball ullamco in commodo culpa consectetur consequat esse. Drumstick beef reprehenderit kielbasa boudin exercitation bresaola. Frankfurter mollit biltong boudin, dolor brisket quis qui kielbasa swine shankle ea ut turducken est.</p>
+            
+            </section>
+            
+            <section id="altSection">
+                <p>Shreddy Shreds. That's all you need to know.
+                    
+                    <picture>
+                        <img src="./imgs/shreddy-icon-sm.png" alt="" height="60px;">
+                    </picture></p>
+                
+            </section>
+
+            <section id="secondImg">
+                <!-- <picture id="secondImg">
+                    <source srcset="./imgs/heli2.jpg" media="(min-width:40em)">
+                    <source srcset="./imgs/small.png" media="(min-width:20em)">
+                    <source srcset="./imgs/small.png">
+
+                    <img src="./imgs/s434.jpg" alt="">
+                </picture> -->
+            </section>
+
+            <section>
+                <p>Spicy jalapeno bacon ipsum dolor amet rump tail dolore sausage. Veniam leberkas non in ex occaeca</p>
+
+                <p>Flank exercitation ipsum, corned beef non beef ribs deserunt. Spare ribs officia shank venison porchetta. Bresaola meatball ullamco in commodo culpa consectetur consequat esse. Drumstick beef reprehenderit kielbasa boudin exercitation bresaola. Frankfurter mollit biltong boudin, dolor brisket quis qui kielbasa swine shankle ea ut turducken est.</p>
+            </section>
+        
+        </main>
+    </body>
+</html>
