@@ -1,0 +1,36 @@
+/* body { margin:0; } */
+
+section{
+    /* margin-top:3em;
+    margin-bottom:3em; */
+}
+
+header{
+    background-color:gray;
+    background: gray url("./imgs/shreddybanner.png") top center no-repeat;
+    background-size: cover;
+    height:500px;
+}
+
+ header > h1{
+    text-align: center;
+    font-family:'Yellowtail',cursive;
+    font-weight:lighter;
+    font-size: 4em;
+    letter-spacing:.025em;
+    color:white;
+    padding-top:1em;
+    margin:0;
+}
+
+p{
+    margin-left:3em;
+    margin-right:3em;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:1em;
+    line-height:1.5;
+}
+
+#shreddyIcon{
+    vertical-align: middle;
+ }
